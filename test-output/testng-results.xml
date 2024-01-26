@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T19:36:54 PST" name="Default suite" finished-at="2024-01-19T19:37:05 PST" duration-ms="11171">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.DSAlgoTestRunner@20ce78ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-19T19:36:54 PST" name="Default test" finished-at="2024-01-19T19:37:05 PST" duration-ms="11171">
+      <class name="TestRunner.DSAlgoTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.DSAlgoTestRunner@20ce78ec]" started-at="2024-01-19T19:36:54 PST" name="setUpClass" finished-at="2024-01-19T19:36:54 PST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ba7383d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.DSAlgoTestRunner@20ce78ec]" started-at="2024-01-19T19:36:54 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T19:36:58 PST" duration-ms="3844" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing Operations in Stack link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Stack Page functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pageFactory.Homepage.clickonstackbutton()" because "this.homepage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageFactory.Homepage.clickonstackbutton()" because "this.homepage" is null
+at StepDefinitions.Stack_SD.user_clicks_get_started_button_in_stack_pane(Stack_SD.java:32)
+at ✽.User clicks Get Started button in Stack pane(file:///Users/sarathkumar/eclipse-workspace/DSAlgo/src/test/resources/Features/Stack.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.DSAlgoTestRunner@20ce78ec]" started-at="2024-01-19T19:36:58 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T19:37:02 PST" duration-ms="3277" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing Creating Implementation link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Stack Page functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pageFactory.Homepage.clickonstackbutton()" because "this.homepage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageFactory.Homepage.clickonstackbutton()" because "this.homepage" is null
+at StepDefinitions.Stack_SD.user_clicks_get_started_button_in_stack_pane(Stack_SD.java:32)
+at ✽.User clicks Get Started button in Stack pane(file:///Users/sarathkumar/eclipse-workspace/DSAlgo/src/test/resources/Features/Stack.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.DSAlgoTestRunner@20ce78ec]" started-at="2024-01-19T19:37:02 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-19T19:37:05 PST" duration-ms="3581" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing Applications in Stack"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Stack Page functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pageFactory.Homepage.clickonstackbutton()" because "this.homepage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageFactory.Homepage.clickonstackbutton()" because "this.homepage" is null
+at StepDefinitions.Stack_SD.user_clicks_get_started_button_in_stack_pane(Stack_SD.java:32)
+at ✽.User clicks Get Started button in Stack pane(file:///Users/sarathkumar/eclipse-workspace/DSAlgo/src/test/resources/Features/Stack.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.DSAlgoTestRunner@20ce78ec]" started-at="2024-01-19T19:37:05 PST" name="tearDownClass" finished-at="2024-01-19T19:37:05 PST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.DSAlgoTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
